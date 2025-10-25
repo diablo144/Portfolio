@@ -445,7 +445,7 @@ function App() {
             {[
               { icon: "💼", link: "https://in.linkedin.com/in/sanjay-s-21b68a294", label: "LinkedIn" },
               { icon: "🐙", link: "https://github.com/diablo144", label: "GitHub" },
-              { icon: "📧", link: "mailto:sanjay144@gmail.com", label: "Email" }
+              { icon: "📧", link: "mailto:sanjay144sellamuthu@gmail.com", label: "Email" }
             ].map((social, index) => (
               <motion.a
                 key={index}
