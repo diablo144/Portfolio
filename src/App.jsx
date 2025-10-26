@@ -128,7 +128,7 @@ function App() {
       title: "Weather App",
       description: "A real-time weather application using a public API to fetch and display current weather data and forecasts for any city.",
       tags: ["HTML", "CSS", "JavaScript", "API"],
-      image: "/assets/weather-app.png",
+      image: "/assets/climatrix.png",
       github: "https://github.com/diablo144/weatherApp",
       demo: "https://diablo144.github.io/weatherApp/weather.html"
     },
@@ -136,7 +136,7 @@ function App() {
       title: "Netflix Clone",
       description: "A responsive clone of the Netflix landing page, built purely with HTML and CSS to practice layout and design.",
       tags: ["HTML", "CSS"],
-      image: "/assets/netflix-clone.png",
+      image: "/assets/netflix.png",
       github: "https://github.com/diablo144/netflix-clone",
       demo: "https://diablo144.github.io/Netflix-Clone/Netflix.html"
     },
@@ -145,7 +145,7 @@ function App() {
       title: "Realtime Geotagging To Report Issue",
       description: "An application that allows users to report issues with real-time location tagging.",
       tags: ["JavaScript", "API"],
-      image: "/assets/geotagging-web.png",
+      image: "/assets/goetag.png",
       github: "https://github.com/diablo144/Issue-reporting",
       demo: "https://diablo144.github.io/Issue-reporting/MCET.html"
     },
@@ -153,7 +153,7 @@ function App() {
       title: "YouTube Clone",
       description: "A responsive clone of YouTube's interface with video grid layout and navigation.",
       tags: ["HTML", "CSS", "JavaScript"],
-      image: "/assets/youtube-clone.png",
+      image: "/assets/youtube.png",
       github: "https://github.com/diablo144/youtube-clone",
       demo: "https://diablo144.github.io/Youtube-clone/Youtube.html"
     },
@@ -161,7 +161,7 @@ function App() {
       title: "Spotify Clone",
       description: "A music player interface clone featuring Spotify's design and layout.",
       tags: ["HTML", "CSS", "JavaScript"],
-      image: "/assets/spotify-clone.png",
+      image: "/assets/spotify.png",
       github: "https://github.com/diablo144/spotify-clone",
       demo: "https://diablo144.github.io/Spotify-clone/"
     },
@@ -170,10 +170,25 @@ function App() {
       title: "Stone Paper Scissor Game",
       description: "An interactive game with smooth animations and score tracking.",
       tags: ["HTML", "CSS", "JavaScript"],
-      image: "/assets/game.png",
+      image: "/assets/rps.png",
       github: "https://github.com/diablo144/Rock-Paper-Scissor-Game",
       demo: "https://diablo144.github.io/Rock-Paper-Scissor-Game/GAME.html"
     },
+    {
+      title:"Txt2Speech Converter",
+      description:"A web application that converts user-input text to speech using js inbuilt speech synthesis.",
+      tags:["HTML","CSS","JavaScript"],
+      image:"/assets/t2s.png",
+      github:"https://github.com/diablo144/text2speech",
+      demo:"https://diablo144.github.io/text2speech/"
+    },{
+      title:"Password Generator",
+      description:"A secure password generator that creates strong passwords with copy to clipboard functionality.",
+      tags:["HTML","CSS","JavaScript"],
+      image:"/assets/pass.png",
+      github:"https://github.com/diablo144/Password-Generator",
+      demo:"https://diablo144.github.io/Password-Generator/"
+    }
   
   ];
 
@@ -574,7 +589,7 @@ function App() {
 
       {/* Projects Section */}
       <section id="projects" className="py-20 px-4">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           <AnimatedSection>
             <h2 className={`text-4xl md:text-5xl font-bold text-center mb-16 ${
               isDarkMode ? 'text-shimmer' : 'text-orange-600'
