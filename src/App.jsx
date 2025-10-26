@@ -128,7 +128,7 @@ function App() {
       title: "Weather App",
       description: "A real-time weather application using a public API to fetch and display current weather data and forecasts for any city.",
       tags: ["HTML", "CSS", "JavaScript", "API"],
-      image: "https://placehold.co/600x400/3b82f6/ffffff?text=Weather+App",
+      image: "/assets/weather-app.png",
       github: "https://github.com/diablo144/weatherApp",
       demo: "https://diablo144.github.io/weatherApp/weather.html"
     },
@@ -136,7 +136,7 @@ function App() {
       title: "Netflix Clone",
       description: "A responsive clone of the Netflix landing page, built purely with HTML and CSS to practice layout and design.",
       tags: ["HTML", "CSS"],
-      image: "https://placehold.co/600x400/e50914/ffffff?text=Netflix+Clone",
+      image: "/assets/netflix-clone.png",
       github: "https://github.com/diablo144/netflix-clone",
       demo: "https://diablo144.github.io/Netflix-Clone/Netflix.html"
     },
@@ -145,7 +145,7 @@ function App() {
       title: "Realtime Geotagging To Report Issue",
       description: "An application that allows users to report issues with real-time location tagging.",
       tags: ["JavaScript", "API"],
-      image: "https://placehold.co/600x400/8b5cf6/ffffff?text=Geotagging+Web",
+      image: "/assets/geotagging-web.png",
       github: "https://github.com/diablo144/Issue-reporting",
       demo: "https://diablo144.github.io/Issue-reporting/MCET.html"
     },
@@ -153,7 +153,7 @@ function App() {
       title: "YouTube Clone",
       description: "A responsive clone of YouTube's interface with video grid layout and navigation.",
       tags: ["HTML", "CSS", "JavaScript"],
-      image: "https://placehold.co/600x400/ff0000/ffffff?text=YouTube+Clone",
+      image: "/assets/youtube-clone.png",
       github: "https://github.com/diablo144/youtube-clone",
       demo: "https://diablo144.github.io/Youtube-clone/Youtube.html"
     },
@@ -161,7 +161,7 @@ function App() {
       title: "Spotify Clone",
       description: "A music player interface clone featuring Spotify's design and layout.",
       tags: ["HTML", "CSS", "JavaScript"],
-      image: "https://placehold.co/600x400/1db954/ffffff?text=Spotify+Clone",
+      image: "/assets/spotify-clone.png",
       github: "https://github.com/diablo144/spotify-clone",
       demo: "https://diablo144.github.io/Spotify-clone/"
     },
@@ -170,7 +170,7 @@ function App() {
       title: "Stone Paper Scissor Game",
       description: "An interactive game with smooth animations and score tracking.",
       tags: ["HTML", "CSS", "JavaScript"],
-      image: "https://placehold.co/600x400/ec4899/ffffff?text=Game",
+      image: "/assets/game.png",
       github: "https://github.com/diablo144/Rock-Paper-Scissor-Game",
       demo: "https://diablo144.github.io/Rock-Paper-Scissor-Game/GAME.html"
     },
@@ -400,7 +400,7 @@ function App() {
             >
               <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-purple-500 shadow-2xl pulse-glow morphing-shape">
                 <img 
-                  src='../img.jpg'
+                  src='/assets/me.jpg'
                   alt="Sanjay S"
                   className="w-full h-full object-cover"
                 />
@@ -842,7 +842,7 @@ function App() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* Email Card */}
               <motion.a
-                href="mailto:sanjay144@gmail.com"
+                href="mailto:sanjay144sellamuthu@gmail.com"
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
