@@ -672,7 +672,7 @@ function App() {
                         rel="noopener noreferrer"
                         className={`flex-1 px-4 py-2 rounded-lg text-center font-medium transition-colors duration-300 ${
                           isDarkMode 
-                            ? 'bg-gray-700 hover:bg-gray-600 text-white' 
+                            ? 'bg-gray-700 hover:bg-gray-600 text-white pt-4 mr-2' 
                             : 'bg-gray-200 hover:bg-gray-300 text-gray-900'
                         }`}
                       >
